@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Card from "./Card";
 
 const Form = () => {
   const [trainer, setTrainer] = useState({
@@ -40,6 +41,8 @@ const Form = () => {
       </form>
 
       {err && <p>Por favor chequea que la información sea correcta</p>}
+
+      <Card trainer={trainer} />
     </div>
   );
 };

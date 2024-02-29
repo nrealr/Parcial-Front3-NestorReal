@@ -10,7 +10,7 @@ function App() {
 
       <Form />
 
-      <Card />
+   
     </div>
   );
 }
